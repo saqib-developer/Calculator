@@ -46,6 +46,11 @@ button {
     box-shadow: -3px -1px 4px 1px #206478;
 }
 
-.zero {
-    width: 122px;
+.spc {
+    height: 96px;
+    position: absolute;
+}
+
+.img {
+    width: 31px;
 }

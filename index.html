@@ -16,15 +16,16 @@
             <div id="display"></div>
             <div class="rows">
                 <button onclick="eraseAll()">C</button>
-                <button onclick="helpful('+/-')">+/-</button>
-                <button onclick="helpful('%')">%</button>
+                <button onclick="helpful('÷')">&divide</button>
                 <button onclick="helpful('*')">x</button>
+                <button onclick="eraseOne()"><img class="img" src="img/icons/backspace_FILL0_wght400_GRAD0_opsz48.svg"
+                        alt="Del"></button>
             </div>
             <div class="rows">
                 <button onclick="helpful('7')">7</button>
                 <button onclick="helpful('8')">8</button>
                 <button onclick="helpful('9')">9</button>
-                <button onclick="helpful('÷')">&divide</button>
+                <button onclick="helpful('-')">-</button>
             </div>
             <div class="rows">
                 <button onclick="helpful('4')">4</button>
@@ -36,12 +37,12 @@
                 <button onclick="helpful('1')">1</button>
                 <button onclick="helpful('2')">2</button>
                 <button onclick="helpful('3')">3</button>
-                <button onclick="helpful('-')">-</button>
+                <button onclick="calculate()" class="spc">=</button>
             </div>
             <div class="rows">
-                <button onclick="helpful('0')" class="zero">0</button>
+                <button onclick="helpful('%')">%</button>
+                <button onclick="helpful('0')">0</button>
                 <button onclick="helpful('.')">.</button>
-                <button onclick="calculate()">=</button>
             </div>
         </div>
     </div>
