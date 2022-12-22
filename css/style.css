@@ -8,5 +8,11 @@ button {
     justify-content: center;
     align-items: center;
     background-color: rgb(46, 44, 44);
-    padding: 0px 0px;
+    padding: 72px 0px;
+}
+
+#display {
+    padding: 24px 121px;
+    background-color: white;
+    margin-bottom: 8px;
 }
