@@ -1,11 +1,17 @@
-function clicked7() {
-    helpful(document.getElementById(7));
+function helpful(value) {
+    const display = document.getElementById("display");
+    const cretspan = document.createElement("span");
+    cretspan.appendChild(document.createTextNode(value));
+    display.appendChild(cretspan);
 }
 
-function helpful(btn) {
+function eraseAll() {
     const display = document.getElementById("display");
-    const id = btn.getAttribute('id');
-    const cretspan = document.createElement("span");
-    cretspan.appendChild(document.createTextNode(id));
-    display.appendChild(cretspan);
+    display.innerHTML = '';
+}
+
+function calculate() {
+    // const display = document.getElementById("display");
+    // let a = display.innerHTML;
+    // console.log(typeof a);
 }

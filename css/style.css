@@ -1,5 +1,18 @@
 button {
-    padding: 20px;
+    width: 58px;
+    height: 45px;
+    background-color: #336aa9;
+    color: white;
+    margin: 3px 2px;
+    border: 2px solid #206478;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 25px;
+    box-shadow: -3px -1px 4px 1px #206478;
+}
+
+.zero{
+    width: 122px;
 }
 
 .container {
@@ -7,12 +20,19 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(46, 44, 44);
+    background-color: rgb(83, 83, 83);
     padding: 72px 0px;
 }
 
 #display {
-    padding: 24px 121px;
+    height: 47px;
+    width: 243px;
     background-color: white;
     margin-bottom: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: stretch;
+    align-content: center;
+    flex-wrap: wrap;
 }
