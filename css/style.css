@@ -1,0 +1,12 @@
+button {
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(46, 44, 44);
+    padding: 0px 0px;
+}
