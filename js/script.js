@@ -1,8 +1,6 @@
 function helpful(value) {
     const display = document.getElementById("display");
-    const cretspan = document.createElement("span");
-    cretspan.appendChild(document.createTextNode(value));
-    display.appendChild(cretspan);
+    display.appendChild(document.createTextNode(value));
 }
 
 function eraseAll() {
@@ -11,7 +9,8 @@ function eraseAll() {
 }
 
 function calculate() {
-    // const display = document.getElementById("display");
-    // let a = display.innerHTML;
-    // console.log(typeof a);
+    const display = document.getElementById("display");
+    let ans = eval(display.innerHTML);
+    display.innerHTML = '';
+    display.appendChild(document.createTextNode(ans));
 }
