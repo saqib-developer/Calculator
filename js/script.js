@@ -9,10 +9,13 @@ function eraseAll() {
 }
 
 function calculate() {
+    const display = document.getElementById("display");
     let ans = eval(display.innerHTML);
     display.innerHTML = '';
     display.appendChild(document.createTextNode(ans));
 }
+
+
 
 
 function eraseOne() {
