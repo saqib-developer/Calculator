@@ -91,13 +91,15 @@ button:hover {
 footer {
     min-height: 11vh;
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
     align-content: center;
-    align-items: center;
+    margin-top: 20px;
 }
 
 footer span {
-    margin: 0 27px;
+    margin: 6px 27px;
 }
 
 footer div a {
