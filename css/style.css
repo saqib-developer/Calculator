@@ -88,7 +88,6 @@ button:hover {
     width: 31px;
 }
 
-
 footer {
     min-height: 11vh;
     display: flex;
@@ -114,5 +113,4 @@ footer div a img {
 footer div a img:hover {
     background: rgb(0 0 0 / 25%);
     transform: translateY(-7px);
-
 }
